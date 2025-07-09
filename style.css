@@ -1,4 +1,16 @@
-* {
-    margin: 0px;
-    padding: 0px;
+
+.open-sans-happy-n-year{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.inter-siblings{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
