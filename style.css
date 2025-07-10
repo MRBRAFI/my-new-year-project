@@ -8,7 +8,7 @@
     --second-color: rgb(255, 255, 255);
     --third-color: rgba(7, 2, 17, 1);
     --fourth-color: rgba(7, 2, 17, 0);
-    --fifth-color: rgba(255, 0, 0, 1);
+    --fifth-color: rgb(255, 230, 230);
 }
 
 .merriweather-happy-n-year {
@@ -38,7 +38,7 @@ header {
     justify-content: center;
     text-align: center;
     width: 1320px;
-    height: 800px;
+    height: 600px;
     margin: 50px 300px 0px 300px;
     overflow: hidden;
 }
@@ -70,11 +70,21 @@ header {
 
 /* heading section ends */
 
+/* for the main section */
+main {
+    max-width: 1320px;
+    height: auto;
+}
+/* for the main section */
+
 /* The discount announcment section starts */
 
 .first-discounts {
     display: flex;
+    align-items: center;
     justify-content: center;
+    width: 100%;
+    margin: 50px 300px 0px 300px;
 }
 
 .discounts {
@@ -82,14 +92,15 @@ header {
 }
 
 .discount {
-    color: var(--fifth-color);
+    color: var(--first-color);
     font-size: 88px;
     font-weight: bold;
     margin-bottom: 48px;
+    margin-top: 120px;
 }
 
 .suggestion {
-    color: var(--fifth-color);
+    color: var(--first-color);
     font-size: 24px;
     font-weight: medium;
 }
@@ -115,7 +126,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 300px 0px 300px;
+    margin: 120px 300px 0px 300px;
     color: var(--second-color);
 }
 
@@ -159,3 +170,41 @@ header {
 }
 
 /* joining invitation section end */
+
+
+/* time and place section start */
+
+.fourth-background {
+    background-image: linear-gradient(to bottom, var(--fifth-color), var(--second-color));
+    border-radius: 16px;
+    margin: 120px 300px 0px 300px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    align-content: center;
+}
+
+.time-and-place {
+    line-height: 50px;
+}
+
+.time-and-places {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.coloring {
+    color: var(--first-color);
+}
+
+.joining-button {
+    padding: 16px 32px;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
